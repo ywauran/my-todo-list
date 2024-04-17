@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>My Todo List</h1>
+        <button id="addBtn" class="btn add-btn">Add New Todo</button>
+      </header>
+      <div id="todoList" class="todo-list"></div>
+    </div>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">×</span>
+        <h2 id="modalTitle">Add Todo</h2>
+        <input type="text" id="todoInput" placeholder="Enter a todo item" />
+        <button class="btn save-btn">Save</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
